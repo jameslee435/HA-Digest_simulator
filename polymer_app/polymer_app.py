@@ -60,7 +60,7 @@ def simulate_degradation(
     return {
         length: (count / total) * 100
         for length, count in product_counter.items()
-        if (count / total) * 100 > 0.25
+        if (count / total) * 100 > 0.1
     }
 
 
